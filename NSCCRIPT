@@ -1,0 +1,39 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("NS > NO SAFETY SCRIPT", "DarkTheme")
+
+local Tab = Window:NewTab("Autofarm")
+local Section = Tab:NewSection("Autofarm")
+
+Section:NewButton("Clock in", "Gives you the job.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bseller12/1/main/CLOCK%20IN"))();
+end)
+
+Section:NewButton("Fridge", "Teleports you to the chicken fridge.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bseller12/2/main/FRIDGE"))();
+end)
+
+Section:NewButton("Fry Chicken", "", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bseller12/3/main/CHICKEN"))();
+end)
+
+local Tab = Window:NewTab("Teleports")
+local Section = Tab:NewSection("Teleports")
+
+Section:NewButton("Trapper", "Teleports you to the trapper place.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bseller12/4/main/trapper"))();
+end)
+
+Section:NewButton("Gym", "Teleports you to the gym place.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bseller12/5/main/5"))();
+end)
+
+Section:NewButton("ATM", "Teleports you to the ATM.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bseller12/6/main/6"))();
+end)
+
+local Tab = Window:NewTab("Extra")
+local Section = Tab:NewSection("Extra")
+
+Section:NewButton("FPS Booster", "Boosts FPS, and less lag.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bseller12/7/main/7"))();
+end)
